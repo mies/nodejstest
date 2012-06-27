@@ -17,9 +17,9 @@ app.get('/json', function(req, res) {
   res.send({'hello' : 'all!'});
 });
 
-var port = process.env.PORT || 8080 ;
+//var port = process.env.PORT || 8080 ;
 
-app.listen(port, function() {
+app.listen(8080, function() {
   'use strict';
   console.log('listening on port ' + port);
 });
