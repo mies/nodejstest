@@ -4,10 +4,9 @@
 , "dependencies" : {
     "express" : "2.5.9",
     "nodeunit" :"0.7.4"
-}
+},
   "engines" : {
     "node" : "0.6.x",
     "npm": "1.1.4"
   }
-
 }
