@@ -1,0 +1,134 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   'C:\\Users\\wouter\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install' ]
+info using npm@1.1.0-beta-7
+info using node@v0.6.10
+verbose config file C:\Users\wouter\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Users\wouter\AppData\Roaming\npm\node_modules\npm\npmrc
+verbose mkdir done: C:\Projects\SkyMesh\nodejstest\helloworld 755
+verbose caching C:\Projects\SkyMesh\nodejstest\helloworld\package.json
+verbose loadDefaults nodepoject@0.0.1
+verbose where, deps [ 'C:\\Projects\\SkyMesh\\nodejstest\\helloworld',
+verbose where, deps   [ 'express' ] ]
+verbose from cache C:\Projects\SkyMesh\nodejstest\helloworld\package.json
+info preinstall nodepoject@0.0.1
+verbose from cache C:\Projects\SkyMesh\nodejstest\helloworld\package.json
+verbose into C:\Projects\SkyMesh\nodejstest\helloworld [ 'express@2.0.0' ]
+verbose cache add express@2.0.0
+verbose cache add [ 'express@2.0.0', null ]
+silly cache add: name, spec, args [ undefined, 'express@2.0.0', [ 'express@2.0.0', null ] ]
+verbose parsed url { pathname: 'express@2.0.0',
+verbose parsed url   path: 'express@2.0.0',
+verbose parsed url   href: 'express@2.0.0' }
+silly cache add: name, spec, args [ 'express', '2.0.0', [ 'express', '2.0.0' ] ]
+verbose parsed url { pathname: '2.0.0', path: '2.0.0', href: '2.0.0' }
+verbose addNamed [ 'express', '2.0.0' ]
+verbose addNamed [ '2.0.0', '2.0.0' ]
+verbose raw, before any munging express/2.0.0
+verbose url resolving [ 'http://registry.npmjs.org/', './express/2.0.0' ]
+verbose url resolved http://registry.npmjs.org/express/2.0.0
+http GET http://registry.npmjs.org/express/2.0.0
+http 200 http://registry.npmjs.org/express/2.0.0
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"2RQM70M4KLZ7EEKF0DFD6NU47"',
+silly get cb     date: 'Thu, 28 Jun 2012 01:00:26 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '931' } ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0'
+verbose mkdir done: C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0 755
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.20-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'f9f715cf54e9b6f3f00115fe7e1188964d0a74b2',
+verbose bin dist     tarball: 'http://registry.npmjs.org/express/-/express-2.0.0.tgz' } ]
+verbose addRemoteTarball [ 'http://registry.npmjs.org/express/-/express-2.0.0.tgz',
+verbose addRemoteTarball   'f9f715cf54e9b6f3f00115fe7e1188964d0a74b2' ]
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\wouter\AppData\Local\Temp\npm-1340845228207'
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885'
+verbose mkdir done: C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885 755
+verbose fetch to C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\tmp.tgz
+verbose mkdir done: C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885 755
+http GET http://registry.npmjs.org/express/-/express-2.0.0.tgz
+http 200 http://registry.npmjs.org/express/-/express-2.0.0.tgz
+silly updated sha bytes 24905
+info shasum f9f715cf54e9b6f3f00115fe7e1188964d0a74b2
+info shasum C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\tmp.tgz
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\___package.npm'
+verbose mkdir done: C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\___package.npm\package
+verbose rm'ed C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\package
+verbose renamed [ 'C:\\Users\\wouter\\AppData\\Local\\Temp\\npm-1340845228207\\1340845228207-0.9104467642027885\\___package.npm\\package',
+verbose renamed   'C:\\Users\\wouter\\AppData\\Local\\Temp\\npm-1340845228207\\1340845228207-0.9104467642027885\\package' ]
+verbose caching C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\package\package.json
+verbose loadDefaults express@2.0.0
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\package\package.json
+verbose pack C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\package
+verbose pack C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\package C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\package.tgz
+silly makeList C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\package
+silly dir, dirLen [ 'C:\\Users\\wouter\\AppData\\Local\\Temp\\npm-1340845228207\\1340845228207-0.9104467642027885\\package',
+silly dir, dirLen   94 ]
+verbose tarball C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\package.tgz
+verbose parent C:\Users\wouter\AppData\Local\Temp\npm-1340845228207\1340845228207-0.9104467642027885\package
+verbose mkdir (expected) error ENOENT, no such file or directory 'C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\___package.npm'
+verbose mkdir done: C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+verbose gunzed C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\___package.npm\package
+verbose rm'ed C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\package
+verbose renamed [ 'C:\\Users\\wouter\\AppData\\Roaming\\npm-cache\\express\\2.0.0\\___package.npm\\package',
+verbose renamed   'C:\\Users\\wouter\\AppData\\Roaming\\npm-cache\\express\\2.0.0\\package' ]
+verbose caching C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\package\package.json
+verbose loadDefaults express@2.0.0
+silly updated sha bytes 25053
+info shasum 3b7980f5431d3d66a925d49f7a3727b8746c1d6a
+info shasum C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\package.tgz
+verbose from cache C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\package\package.json
+verbose chmod C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\package.tgz 644
+silly skipping chown for windows C:\Users\wouter\AppData\Roaming\npm-cache\express\2.0.0\package.tgz
+silly resolved [ { name: 'express',
+silly resolved     description: 'Sinatra inspired web development framework',
+silly resolved     version: '2.0.0',
+silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+silly resolved        { name: 'Aaron Heckmann',
+silly resolved          email: 'aaron.heckmann+github@gmail.com' },
+silly resolved        { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly resolved        { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly resolved     dependencies: { connect: '>= 1.1.0 < 2.0.0', mime: '>= 0.0.1', qs: '>= 0.0.6' },
+silly resolved     keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly resolved     main: 'index',
+silly resolved     bin: { express: './bin/express' },
+silly resolved     engines: { node: '>= 0.4.1 < 0.5.0' },
+silly resolved     _id: 'express@2.0.0',
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.1.0-beta-7',
+silly resolved     _nodeVersion: 'v0.6.10',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '3b7980f5431d3d66a925d49f7a3727b8746c1d6a' } } ]
+info into C:\Projects\SkyMesh\nodejstest\helloworld express@2.0.0
+info installOne express@2.0.0
+verbose installOne cb express@2.0.0
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: express@2.0.0
+ERR! Required: {"node":">= 0.4.1 < 0.5.0"}
+ERR! Actual:   {"npm":"1.1.0-beta-7","node":"0.6.10"}
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "node" "C:\\Users\\wouter\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install"
+ERR! cwd C:\Projects\SkyMesh\nodejstest\helloworld
+ERR! node -v v0.6.10
+ERR! npm -v 1.1.0-beta-7
+ERR! code ENOTSUP
+ERR! message Unsupported
+verbose exit [ 1, true ]
