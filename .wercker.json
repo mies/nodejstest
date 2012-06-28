@@ -1,21 +1,3 @@
 {
-enable_diagnostics: true,
-root: "helloworld",
-node_test: {
-enabled: false
-},
-services: {
-mysql: false,
-redis: false,
-postgresql: {
-enabled: false,
-port: 666
-}
-},
-customStepsa: {
-nodeunit: "nodeunit test --reporter junit --output /report/custom_nodeunit"
-},
-postScripts: [
-"echo END"
-]
+root: "helloworld"
 }
