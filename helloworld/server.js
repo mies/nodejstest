@@ -6,5 +6,4 @@ app.get('/', function(req, res) {
   res.send("<h1 style='font-size: 500%;'>Hello World!</h1>");
 });
 
-app.listen(8080, function() {
-});
+app.listen(8080);
