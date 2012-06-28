@@ -21,5 +21,5 @@ app.get('/json', function(req, res) {
 
 app.listen(8080, function() {
   'use strict';
-  console.log('listening on port ' + port);
+  console.log('listening on port 8080');
 });
